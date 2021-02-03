@@ -1,0 +1,73 @@
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 239, 217);
+    width: 800px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    font-weight: lighter;
+    margin: 80px;
+}
+
+.subtitle{
+    font-size: 25px;
+    color:chocolate;
+    margin: 10px;
+}
+
+.contact{
+    margin: 5px;
+}
+
+.text{
+    margin: 10px;
+    color:rgb(83, 0, 0);
+}
+
+.element2:nth-child(2){
+    flex: 1.5;
+}
+
+.element2:nth-child(3){
+    flex: 2;
+}
+
+.input1{
+    color:rgb(83, 0, 0);
+    width: 300px;
+    border-width:1px;
+    border-style:solid;
+    border-color:chocolate;
+    font-weight: 500;
+}
+
+.input2{
+    overflow: auto;
+    font-weight: 500;
+}
+
+.element1{
+    margin:10px;
+}
+
+.button{
+    color:rgb(83, 0, 0);
+    background-color: white;
+    border-width:1px;
+    border-style:solid;
+    border-color:chocolate;
+}
+
+button:hover{
+    color: white;  
+    background-color:rgb(83, 0, 0) ;
+}

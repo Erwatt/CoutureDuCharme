@@ -1,0 +1,57 @@
+.Up{
+    background-color:darkred;
+}
+
+.Down{
+    background-color: wheat;
+}
+
+.Box1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.Box2{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.A{
+    text-decoration: none;
+    color:black;
+}
+
+p{
+    margin: 5px;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: chocolate;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgb(145, 72, 19);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Fb{
+    max-width: 20px;
+    height: auto;   
+}
+
+.Note{
+    color:chocolate;
+    font-size: 20px;
+}
+
+.Tel{
+    color:white;
+    font-size: 20px;
+}
+
+.Element2{
+    font-size: 20px;
+}

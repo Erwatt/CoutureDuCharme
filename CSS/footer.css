@@ -1,0 +1,24 @@
+footer{
+    background-color:wheat;
+}
+
+.Box{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.element:nth-child(1){
+    order:2
+}
+
+.tel{
+    color:Red;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+}
+
+p{
+    margin: 5px;
+}

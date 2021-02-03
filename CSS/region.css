@@ -1,0 +1,55 @@
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 239, 217);
+    width: 1000px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 250px;
+    border-width:1px;
+    border-style:solid;
+    border-color:chocolate;
+}
+
+.element2:nth-child(1){
+    flex:1;
+}
+
+.element2:nth-child(2){
+    flex:2;
+}
+
+.element1{
+    margin: 20px;
+}
+
+.map{
+    width: 950px;
+    height: auto;
+}
+
+.title{
+    font-weight: normal;
+}
+
+.intro{
+    color:rgb(83, 0, 0);
+}
+
+.subtitle{
+    color:rgb(83, 0, 0);
+    font-weight: lighter;
+}
+
+.text{
+    font-size: 20px;
+}
